@@ -1,0 +1,149 @@
+body {
+    background-color: blue;
+}
+
+#navbar {
+    margin-top: 35px;
+    margin-left: 170px;
+}
+
+#navbar ul li {
+    float: left;
+    list-style: none;
+    margin-left: 46px;
+    color: white;
+}
+
+#navbar #left {
+    margin-right: 157px;
+    /* font-size: 25px; */
+    font-weight: bold;
+}
+
+#box {
+    margin-left: 200px;
+}
+
+#box div{
+    float: left;
+    display: block;
+    height: 450px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#box #left_div {
+    color: white;
+}
+
+#box #left_div h1 {
+    font-size: 50px;
+}
+
+#box #sign_up {
+    background-color: white;
+}
+
+#box #sign_up h1 {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#box #sign_up form input {
+    border-radius: 20px;
+    width: 270px;
+    height: 35px;
+    /* margin-left: 30px; */
+}
+
+#box #sign_up input.checkbox {
+    height: 15px;
+    width: 15px;
+    margin-left: 30px;
+}
+
+#sign_up #twitter {
+    border-radius: 20px;
+    width: 270px;
+    height: 35px;
+    margin-left: 35px;
+    background-color: rgb(74, 193, 209);
+    border: 1px solid grey;
+    color: white;
+}
+
+#sign_up p {
+    margin-left: 65px;
+    color: grey;
+}
+
+
+#sign_up .hr-lines:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 110px;
+    position: absolute;
+    background: rgb(129, 125, 125);
+    top: 50%;
+}
+
+.hr-lines{
+position: relative;
+max-width: 400px;
+text-align: center;
+margin-left: 40px;
+margin-right: 50px;
+}
+
+.hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 110px;
+    background: grey;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+  input{
+    padding-left: 15px;
+    border-color: antiquewhite;
+    /* outline: none; */
+    /* border-style: none; */
+    border:1px solid grey;
+}
+
+h6{
+    color: grey;
+}
+
+#sign_up #sign_up_button {
+    background-color: blue;
+    color: white;
+    margin-left: 35px;
+}
+
+#sign_up #email,#password {
+    margin-left: 25px;
+}
+
+#sign_up #agree {
+    color: grey;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(98, 176, 212);
+}
+
+.red_button {
+    background-color: rgb(238, 61, 158);
+    border-radius: 30px;
+    border: 0px solid;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
